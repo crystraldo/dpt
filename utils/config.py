@@ -28,7 +28,7 @@ CONFIG.model.trimap_channel = 3
 # Model -> Architecture config
 CONFIG.model.arch = EasyDict({})
 # definition in networks/encoders/__init__.py and networks/encoders/__init__.py
-CONFIG.model.arch.name = "MatteFormer"
+CONFIG.model.arch.name = "DPT"
 # predefined for GAN structure
 CONFIG.model.arch.discriminator = None
 
