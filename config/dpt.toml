@@ -1,0 +1,39 @@
+version = "DPT-Imagenet1k"
+dist = true
+
+[model]
+trimap_channel = 3
+batch_size = 64
+imagenet_pretrain = false
+self_refine_width1 = 30
+self_refine_width2 = 15
+
+[train]
+
+clip_grad = true
+rec_weight = 1.0
+comp_weight = 1.0
+lap_weight = 1.0
+
+[data]
+train1k_path = ""
+test_merged = ""
+test_alpha = ""
+test_trimap = ""
+
+workers = 8
+
+crop_size = 224
+
+augmentation = true
+random_interp = true
+real_world_aug = false
+
+[log]
+experiment_root = ""
+
+logging_path = "logs/stdout"
+logging_step = 100
+logging_level = "INFO"
+
+checkpoint_path = ""
