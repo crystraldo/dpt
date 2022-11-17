@@ -1,15 +1,13 @@
 ## DPT
 ## Title
-title: Disentangled Pre-training for Image Matting
+Title: Disentangled Pre-training for Image Matting
 ## Paper id
 cvpr 1730
-## model weights for composition-1k based on Matteformer
-You can download our model weights from anonymous link:
-https://1drv.ms/u/s!AtQiYwqUDNqOjWtwYb0FC1MuTQ0O?e=5BIbCQ
 
 ## Installation
 
 Please refer to requirements.txt for installation.
+
 pip3 install -r requirements.txt
 
 ## Get Started
@@ -28,9 +26,15 @@ You could use MatteFormer for fine-tuning by using our pretrained DPT model for 
 ### Test for pre-training model
 If you want to test your performance during pre-training phase, you could generate test images with the same setting of training phase, and set the test path in config/dpt.toml
 
-## Test with single GPU on Composition-1k
+It is worth emphasizing that the performance of pre-training is not directly proportional to the performance of fine-tuning
+
+### Test with single GPU on Composition-1k
 python3 inference.py
 
+## model weights for composition-1k based on Matteformer
+You can download our model weights from anonymous link:
+https://1drv.ms/u/s!AtQiYwqUDNqOjWtwYb0FC1MuTQ0O?e=5BIbCQ
+and use inference.py for testing the performance.
 
 
 
