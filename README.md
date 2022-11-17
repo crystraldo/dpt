@@ -5,7 +5,7 @@ title: Disentangled Pre-training for Image Matting
 cvpr 1730
 ## model weights for composition-1k based on Matteformer
 You can download our model weights from anonymous link:
-https://drive.google.com/file/d/10sLDSd3zacx2uWUQaHbbClQqwcP7OzSV/view?usp=share_link
+https://1drv.ms/u/s!AtQiYwqUDNqOjWtwYb0FC1MuTQ0O?e=5BIbCQ
 
 ## Installation
 
