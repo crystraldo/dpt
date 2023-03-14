@@ -2,7 +2,7 @@
 ## Title
 Title: Disentangled Pre-training for Image Matting
 ## Paper id
-cvpr 1730
+iccv 9837
 
 ## Installation
 
