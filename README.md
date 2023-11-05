@@ -1,8 +1,8 @@
 ## DPT
 ## Title
 Title: Disentangled Pre-training for Image Matting
-## Paper id
-WACV 1554
+
+Accepted by WACV 2024
 
 ## Installation
 
